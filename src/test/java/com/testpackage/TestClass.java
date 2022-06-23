@@ -7,7 +7,7 @@ import org.testng.Assert;
 public class TestClass {
      @Test
 	 public void sum() {
-		         Assert.assertEquals(true, true);
+		         Assert.assertEquals(true, false);
 		System.out.println("Sum");
 	 }
      
