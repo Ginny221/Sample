@@ -1,10 +1,13 @@
 package com.testpackage;
 
 import org.testng.annotations.Test;
+import org.testng.Assert;
+
 
 public class TestClass {
      @Test
 	 public void sum() {
+		         Assert.assertEquals(true, true);
 		System.out.println("Sum");
 	 }
      
